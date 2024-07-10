@@ -3,21 +3,22 @@
     padding: 5px;
     font-size: 20px;
     border-radius: 8px;
-    margin: 5px 3%;
+    margin:2%;
 }
 .name {
     width: 40%;
     display: inline-block;
 }
 .date {
-    width: 30%;
+    width: 31%;
     display: inline-block;
 }
 .button {
+    font-size: 98%;
     width: 10%;
     background-color: red;
     color: white;
-    right: 10px;
+    cursor: pointer;
 }
 .button:hover{
     background-color: rgb(134, 8, 29);

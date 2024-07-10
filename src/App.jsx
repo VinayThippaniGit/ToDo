@@ -26,7 +26,6 @@ export default function App(){
     return(
         <>
         <div className={styles.total}>
-            
             <h1 className={styles.heading}>ToDo App</h1>
             <AddToDo Add={Add}/>
             <Items List={toDoItems} deleteItem={deleteItem}/>
